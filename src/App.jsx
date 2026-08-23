@@ -147,16 +147,16 @@ function App() {
       {/* PAGE 3: Message Card */}
       <div
         ref={page3Ref}
-        className={`page ${currentPage === 3 ? "active" : ""}`}
+        className={`page message-page ${currentPage === 3 ? "active" : ""}`}
         style={{ visibility: currentPage === 3 ? "visible" : "hidden" }}
       >
         <button className="back-btn" onClick={() => goToPage(2)}>
           ← Back
         </button>
         <MessageCard isActive={currentPage === 3} />
-        {/* <button className="page-nav-btn" onClick={() => goToPage(4)}>
+        <button className="page-nav-btn" onClick={() => goToPage(4)}>
           📸 View Our Memories
-        </button> */}
+        </button>
       </div>
 
       {/* PAGE 4: Gallery */}
@@ -170,8 +170,7 @@ function App() {
         </button>
         <Gallery isActive={currentPage === 4} />
         <section className="final">
-          <h2 className="final-message">💖 Forever Yours — [Your Name] 💖</h2>
-          <p className="final-subtitle">Your personalized closing message ✨</p>
+          <h2 className="final-message">💖 World's Most Beautiful Girl 💖</h2>
         </section>
       </div>
 
