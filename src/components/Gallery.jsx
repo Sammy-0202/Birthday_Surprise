@@ -14,16 +14,6 @@ const bundledPhotos = [
   { src: "/images/pic3.jpeg", alt: "Memory 3" },
   { src: "/images/pic4.jpeg", alt: "Memory 4" },
   { src: "/images/pic5.jpeg", alt: "Memory 5" },
-  { src: "/images/pic6.jpeg", alt: "Memory 6" },
-  { src: "/images/pic7.jpeg", alt: "Memory 7" },
-  { src: "/images/pic8.jpeg", alt: "Memory 8" },
-  { src: "/images/pic9.jpeg", alt: "Memory 9" },
-  { src: "/images/pic10.jpeg", alt: "Memory 10" },
-  { src: "/images/pic11.jpeg", alt: "Memory 11" },
-  { src: "/images/pic12.jpeg", alt: "Memory 12" },
-  { src: "/images/pic13.jpeg", alt: "Memory 13" },
-  { src: "/images/pic14.jpeg", alt: "Memory 14" },
-  { src: "/images/pic15.jpeg", alt: "Memory 15" },
 ];
 
 function Gallery({ isActive }) {
